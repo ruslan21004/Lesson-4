@@ -175,7 +175,7 @@
 //1;
 //4 * 3 * 2 * Factorial(1);
 //24;
-
+//commented code is bad practice
 
 
 
@@ -186,7 +186,7 @@ using System.Linq;
 
 class Homework4
 {
-    static int MaxValue(int num1, int num2)
+    static int MaxValue(int num1, int num2) // num1, num2 - bad naming
     {
 
         return Math.Max(num1, num2);
@@ -245,7 +245,7 @@ static bool TrySumIfOdd(int bnum1, int bnum2, out int result)
 
 }
 
-
+//checked
 
 
 
